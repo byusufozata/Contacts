@@ -28,11 +28,13 @@ class ViewController: UIViewController {
         let index = sender as? Int
         
         if segue.identifier == "toDetail"{
-            
+            let targetVC = segue.destination as! UserDetailViewController
+            targetVC.user = usersList[index!]
         }
         
         if segue.identifier == "toUpdate"{
-            
+            let targetVC = segue.destination as! UserUpdateViewController
+            targetVC.user = usersList[index!]
         }
     }
     

@@ -118,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eq8-mD-2uz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="931" y="799"/>
+            <point key="canvasLocation" x="929" y="1075"/>
         </scene>
         <!--User Update-->
         <scene sceneID="KND-DH-Jp4">
@@ -138,10 +138,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OlI-o5-iDB">
-                                <rect key="frame" x="182" y="513" width="50" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OlI-o5-iDB">
+                                <rect key="frame" x="164" y="513" width="87" height="31"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Add"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Update"/>
                                 <connections>
                                     <action selector="userUpdateButtonClicked:" destination="Wf0-LO-GY9" eventType="touchUpInside" id="kYw-v2-Qbg"/>
                                 </connections>
@@ -153,14 +153,12 @@
                             <constraint firstItem="wiM-yH-d1M" firstAttribute="leading" secondItem="ARv-mc-l5l" secondAttribute="leading" constant="113" id="5CD-e7-mw7"/>
                             <constraint firstItem="ARv-mc-l5l" firstAttribute="trailing" secondItem="wiM-yH-d1M" secondAttribute="trailing" constant="112" id="6AO-bW-9wN"/>
                             <constraint firstItem="OlI-o5-iDB" firstAttribute="top" secondItem="Ny2-00-rEB" secondAttribute="bottom" constant="131" id="8TW-S9-2PH"/>
-                            <constraint firstItem="OlI-o5-iDB" firstAttribute="leading" secondItem="ARv-mc-l5l" secondAttribute="leading" constant="182" id="D4z-Q9-0KW"/>
                             <constraint firstItem="wiM-yH-d1M" firstAttribute="top" secondItem="ARv-mc-l5l" secondAttribute="top" constant="137" id="Mi1-1d-qh7"/>
                             <constraint firstItem="Ny2-00-rEB" firstAttribute="top" secondItem="wiM-yH-d1M" secondAttribute="bottom" constant="89" id="NVn-j5-dX4"/>
                             <constraint firstItem="OlI-o5-iDB" firstAttribute="centerX" secondItem="mQN-qK-C4t" secondAttribute="centerX" id="gd3-lF-k7b"/>
                             <constraint firstItem="OlI-o5-iDB" firstAttribute="centerX" secondItem="mQN-qK-C4t" secondAttribute="centerX" id="k61-fG-1KD"/>
                             <constraint firstItem="ARv-mc-l5l" firstAttribute="trailing" secondItem="Ny2-00-rEB" secondAttribute="trailing" constant="112" id="rgg-8U-Dt8"/>
                             <constraint firstItem="Ny2-00-rEB" firstAttribute="leading" secondItem="ARv-mc-l5l" secondAttribute="leading" constant="113" id="sNR-6r-sBR"/>
-                            <constraint firstItem="ARv-mc-l5l" firstAttribute="trailing" secondItem="OlI-o5-iDB" secondAttribute="trailing" constant="182" id="uhW-z9-JVW"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="User Update" id="VtQ-na-aHk"/>
@@ -171,7 +169,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zen-Pc-9W1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1707" y="660"/>
+            <point key="canvasLocation" x="1958" y="753"/>
         </scene>
         <!--User add-->
         <scene sceneID="mEQ-2Z-3v7">
@@ -221,7 +219,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B5O-sz-1le" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1707.2463768115942" y="-123.21428571428571"/>
+            <point key="canvasLocation" x="1958" y="-305"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QCk-WQ-VnJ">
